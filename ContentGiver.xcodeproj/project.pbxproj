@@ -21,6 +21,8 @@
 		D4C07C0529060F5A00F279A3 /* CardCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C07C0429060F5A00F279A3 /* CardCellController.swift */; };
 		D4C07C0A2906107A00F279A3 /* ContentListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C07C092906107A00F279A3 /* ContentListViewModel.swift */; };
 		D4C07C1229065B5E00F279A3 /* ArticleModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C07C0F2906580D00F279A3 /* ArticleModelTests.swift */; };
+		D4C07C152906CCEB00F279A3 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4558B4E29018465004DF8FD /* ContentModel.swift */; };
+		D4C07C162906D4A900F279A3 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4558B4E29018465004DF8FD /* ContentModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -357,6 +359,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4C07C1229065B5E00F279A3 /* ArticleModelTests.swift in Sources */,
+				D4C07C152906CCEB00F279A3 /* ContentModel.swift in Sources */,
 				D4558B2D2901836F004DF8FD /* ContentGiverTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,6 +370,7 @@
 			files = (
 				D4558B392901836F004DF8FD /* ContentGiverUITestsLaunchTests.swift in Sources */,
 				D4558B372901836F004DF8FD /* ContentGiverUITests.swift in Sources */,
+				D4C07C162906D4A900F279A3 /* ContentModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

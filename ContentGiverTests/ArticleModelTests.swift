@@ -33,18 +33,17 @@ final class ArticleModelTests: XCTestCase {
     }
     
     func testUserFormModel_canCreateInstance() {
-        let instance
-        = ArticleModel(author: "Author Test",
-                       title: "Title Test",
-                       description: "Description Test")
+        let instance = ArticleModel(author: "Author Test",
+                                    title: "Title Test",
+                                    description: "Description Test", articleUrl: "Url Test", image: "Image Test")
         XCTAssertNotNil(instance)
     }
     
     func testArticleModel_ShouldPassIfValidateAuthor() {
         let articleModel = ArticleModel(author: "Author Test",
                                         title: "Title Test",
-                                        description: "Description Test")
-        XCTAssertTrue(articleModel.isValidFirstName())
+                                        description: "Description Test", articleUrl: "Url Test", image: "Image Test")
+        XCTAssertTrue(articleModel.isValidAuthor())
     }
     
 }
